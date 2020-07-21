@@ -16,7 +16,7 @@ def greet(name=""):
         The greeting
 
     >>> print(greet())
-    Hello
+    Hello 
     >>> print(greet(name="Sam"))
     Hello Sam
     """
