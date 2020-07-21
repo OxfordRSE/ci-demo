@@ -36,3 +36,6 @@ jobs:
     - name: Test with unittest
       run: |
         python -m unittest -v
+    - name: Test examples in documentation strings
+      run: |
+        python -m doctest ci_demo/functionality.py
