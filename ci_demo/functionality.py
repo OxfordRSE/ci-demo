@@ -15,8 +15,8 @@ def greet(name=""):
     str
         The greeting
 
-    >>> print(greet())
-    Hello 
+    >>> print(greet()) #doctest: +NORMALIZE_WHITESPACE
+    Hello
     >>> print(greet(name="Sam"))
     Hello Sam
     """
