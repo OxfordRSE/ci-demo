@@ -14,6 +14,11 @@ def greet(name=""):
     -------
     str
         The greeting
+
+    >>> print(greet()) #doctest: +NORMALIZE_WHITESPACE
+    Hello
+    >>> print(greet(name="Sam"))
+    Hello Sam
     """
     return "Hello " + name
 
@@ -31,6 +36,9 @@ def minimum(*args):
     -------
     int,float
         The minimum
+
+    >>> print(minimum(4,2,8))
+    2
     """
     if not any([isinstance(arg, numbers.Real) for arg in args]):
         return
